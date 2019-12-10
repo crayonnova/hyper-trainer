@@ -4,12 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <title>Document</title>
+    <style>
+    @font-face {
+            font-family: 'Khyay';
+            font-style: normal;
+            font-weight: 400;
+            src: url(//fonts.gstatic.com/ea/khyay/v2/Khyay-Regular.eot);
+            src: url(//fonts.gstatic.com/ea/khyay/v2/Khyay-Regular.eot?#iefix) format('embedded-opentype'),
+                url(//fonts.gstatic.com/ea/khyay/v2/Khyay-Regular.woff2) format('woff2'),
+                url(//fonts.gstatic.com/ea/khyay/v2/Khyay-Regular.woff) format('woff'),
+                url(//fonts.gstatic.com/ea/khyay/v2/Khyay-Regular.ttf) format('truetype');
+    }
+
+    h1{
+        font-family: 'Khyay';
+    }
+
+    </style>
 </head>
 <body>
-    <div id="app">
-        
+    <form id="form" action="">
+        <label for="chapter-selector">Choose chapter : </label><select name="" id="chapter-selector"></select>
+        <input type="submit" class="btn btn-success btn-sm">
+        <h1 id="topic"></h1>
+        <h4>Multiple choice</h4>    
+    <div class="container-fluid">
+        <ol id="multiple_choice"></ol>
     </div>
+
+</form>
     <script src="app.js"></script>
 </body>
 </html>
