@@ -4,7 +4,7 @@
         "multiple_choice" : [
             {
                 "question" : "who is beautiful",
-                "choice" : [" this is a " , "this is b", "this is c ", "d"],
+                "choice" : [" cat " , "red", "dfe ", "dfd"],
                 "answer" : 3
             },
             {
