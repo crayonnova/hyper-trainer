@@ -1,71 +1,45 @@
 {
     "Chapter1" : {
         "topic"          : "Chapter 1 : EXPERIMENTAL CHEMISTRY ",
-        "multiple_choice" : [
+        "multiple_choice" : 
+        [
             {
                 "question" : "who is beautiful",
-                "choice" : [" cat " , "red", "dfe ", "dfd"],
-                "answer" : 3
+                "choice" : [
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ut ipsam veniam saepe, porro libero molestias commodi eius voluptates eveniet ipsum in temporibus. Molestiae alias, earum unde repudiandae officia laboriosam? " ,
+                     "red",
+                      "dfe ",
+                       "dfd",
+                       "fefef"
+                ],
+                "answer" : [true,false,false,true,true]
             },
-            {
-                "question" : "who is ugly",
-                "choice" : [" this is a " , "this is b", "this is c ", "d"],
-                "answer" : 1
-            }
-        ],
-
-        "fill_in_the_blank" :[
-            {
-                "question" : " bla bla ?",
-                "answer"   : ["hello","HELLO"]
-            },
-            {
-                "question" : " bla bla ?",
-                "answer"   : ["hello","HELLO"]
-            }
-        ],
-
-        "true_false" :[
-            {
-                "question"  : "is this true or false",
-                "answer"    : true
-            }
-        ]
-        
-    },
-
-    "Chapter2" : {
-        "topic"          : "Chapter 2 : ATOMIC STRUCTURE AND STOICHIOMETRY",
-        "multiple_choice" : [
+            
             {
                 "question" : "who is beautiful",
-                "choice" : [" this is a " , "this is b", "this is c ", "d"],
-                "answer" : 3
+                "choice" : [
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ut ipsam veniam saepe, porro libero molestias commodi eius voluptates eveniet ipsum in temporibus. Molestiae alias, earum unde repudiandae officia laboriosam? " ,
+                     "red",
+                      "dfe ",
+                       "dfd",
+                       "fefef"
+                ],
+                "answer" : [true,false,false,true,true]
             },
+            
             {
-                "question" : "who is ugly",
-                "choice" : [" this is a " , "this is b", "this is c ", "d"],
-                "answer" : 1
-            }
-        ],
-
-        "fillintheblank" :[
-            {
-                "question" : " bla bla ?",
-                "answer"   : ["hello","HELLO"]
-            },
-            {
-                "question" : " bla bla ?",
-                "answer"   : ["hello","HELLO"]
-            }
-        ],
-
-        "true_false" :[
-            {
-                "question"  : "is this true or false",
-                "answer"    : true
+                "question" : "who is beautiful",
+                "choice" : [
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum ut ipsam veniam saepe, porro libero molestias commodi eius voluptates eveniet ipsum in temporibus. Molestiae alias, earum unde repudiandae officia laboriosam? " ,
+                     "red",
+                      "dfe ",
+                       "dfd",
+                       "fefef"
+                ],
+                "answer" : [true,false,false,true,true]
             }
         ]
-        
-    }
 }
+}
+
+
